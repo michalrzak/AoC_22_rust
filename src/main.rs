@@ -1,12 +1,19 @@
-mod day_1 {
+mod day_01 {
     pub mod day_1_1;
     pub mod day_1_2;
+}
+
+mod day_02 {
+    pub mod day_2_1;
+    pub mod day_2_2;
 }
 
 fn main() {
     println!("Hello, world!");
 
-    //day_1::day_1_1::solve();
-    day_1::day_1_2::solve();
+    //day_01::day_1_1::solve();
+    //day_1::day_1_2::solve();
+    //day_02::day_2_1::solve();
+    day_02::day_2_2::solve();
 
 }
