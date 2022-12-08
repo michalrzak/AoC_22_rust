@@ -28,6 +28,15 @@ mod day_06 {
     pub mod day_6_2;
 }
 
+mod day_07 {
+    pub mod day_7_1;
+}
+
+mod day_08 {
+    pub mod day_8_1;
+    pub mod day_8_2;
+}
+
 fn main() {
     println!("Hello, world!");
 
@@ -42,5 +51,7 @@ fn main() {
     // day_05::day_5_1::solve();
     // day_05::day_5_2::solve();
     // day_06::day_6_1::solve();
-    day_06::day_6_2::solve();
+    // day_06::day_6_2::solve();
+    // day_07::day_7_1::solve();
+    day_08::day_8_2::solve();
 }
