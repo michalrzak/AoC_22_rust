@@ -1,3 +1,5 @@
+use crate::day_13::day_13_1::solve;
+
 mod day_01 {
     pub mod day_1_1;
     pub mod day_1_2;
@@ -57,6 +59,16 @@ mod day_12 {
     pub mod day_12_2;
 }
 
+mod day_13 {
+    pub mod day_13_1;
+    pub mod day_13_2;
+}
+
+mod day_14 {
+    pub mod day_14_1;
+    pub mod day_14_2;
+}
+
 fn main() {
     println!("Hello, world!");
 
@@ -81,6 +93,10 @@ fn main() {
     // day_11::day_11_1::solve();
     // unsafe { day_11::day_11_2::solve(); }
     // day_12::day_12_1::solve();
-    day_12::day_12_2::solve();
+    // day_12::day_12_2::solve();
+    // day_13::day_13_1::solve();
+    // day_13::day_13_2::solve();
+    // day_14::day_14_1::solve();
+    day_14::day_14_2::solve();
 }
 
